@@ -1,3 +1,39 @@
+// theme toggle: light/dark, respects system preference, remembers choice
+(function () {
+  const root = document.documentElement;
+  const themeToggle = document.getElementById('themeToggle');
+  const themeToggleMobile = document.getElementById('themeToggleMobile');
+
+  function applyTheme(theme) {
+    if (theme === 'dark') {
+      root.setAttribute('data-theme', 'dark');
+    } else {
+      root.removeAttribute('data-theme');
+    }
+    const isDark = theme === 'dark';
+    [themeToggle, themeToggleMobile].forEach(btn => {
+      if (!btn) return;
+      btn.setAttribute('aria-pressed', String(isDark));
+      btn.setAttribute('aria-label', isDark ? 'Switch to light theme' : 'Switch to dark theme');
+      const label = btn.querySelector('span');
+      if (label) label.textContent = isDark ? 'Switch to light theme' : 'Switch to dark theme';
+    });
+  }
+
+  function toggleTheme() {
+    const next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    applyTheme(next);
+    localStorage.setItem('bt-theme', next);
+  }
+
+  const stored = localStorage.getItem('bt-theme');
+  const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  applyTheme(stored || (systemDark ? 'dark' : 'light'));
+
+  themeToggle && themeToggle.addEventListener('click', toggleTheme);
+  themeToggleMobile && themeToggleMobile.addEventListener('click', toggleTheme);
+})();
+
 document.getElementById('year').textContent = new Date().getFullYear();
 
 // mobile nav toggle

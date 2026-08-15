@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 64" fill="none">
+  <g>
+    <path d="M32 12 L20 40 M32 12 L44 40 M21.5 41 L42.5 41" stroke="#6C8CFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="32" cy="12" r="5.4" fill="#6C8CFF"/>
+    <circle cx="20.5" cy="41" r="4.6" fill="#0B0E14" stroke="#6C8CFF" stroke-width="2.8"/>
+    <circle cx="43.5" cy="41" r="4.6" fill="#0B0E14" stroke="#6C8CFF" stroke-width="2.8"/>
+  </g>
+  <text x="70" y="40" font-family="'Space Grotesk', Arial, sans-serif" font-size="28" font-weight="500" fill="#F4F6F9">Bhama<tspan font-weight="700">Tech</tspan></text>
+</svg>

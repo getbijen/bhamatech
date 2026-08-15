@@ -35,3 +35,18 @@ Static site — no build step required. Three files: `index.html`, `style.css`, 
 - No Insights/blog section yet — easy to add as a new `<section>` later once you have case studies.
 - Fonts (Space Grotesk, Inter, IBM Plex Mono) load from Google Fonts CDN — no local font files needed.
 - Fully responsive, respects reduced-motion preference, visible keyboard focus states on the form.
+
+## Recent updates (this revision)
+
+- Calendly CTA text corrected to "30-min call" throughout (matches your actual link)
+- "See what I do" → "See what we do"
+- Added light/dark theme toggle (top-right of nav) — remembers the visitor's choice, defaults to their system preference on first visit
+- Added a logo mark: three connected nodes forming an upward triangle — top node solid (leadership/decision), two open (team/systems), lines representing integration and workflow. Subtly reflects Advisory + Leadership + Automation.
+
+## Logo assets (`/assets`)
+
+- `favicon.svg` — icon only, used as the site favicon, also fine for social profile pictures
+- `logo-light-bg.svg` — icon + wordmark, for use on white/light backgrounds (LinkedIn banner, email signature, documents)
+- `logo-dark-bg.svg` — icon + wordmark, for use on dark backgrounds
+
+These are vector (SVG), so they scale to any size without quality loss. If you ever need PNG versions (e.g. for tools that don't accept SVG), open the file in a browser, right-click → "Save image as," or ask me to export them.
