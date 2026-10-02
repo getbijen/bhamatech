@@ -259,10 +259,10 @@ a { color: inherit; text-decoration: none; }
 .service-card-automation { grid-area: automation; }
 .service-card-wide { grid-area: leadership; }
 .service-tag {
-  font-family: var(--font-body); font-weight: 600; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase;
+  font-family: var(--font-body); font-weight: 600; font-size: 16px; letter-spacing: 0.1em; text-transform: uppercase;
   color: var(--teal); margin: 0 0 16px; padding-left: 14px; border-left: 2px solid var(--teal);
 }
-.service-card h3 { font-family: var(--font-display); font-size: 22px; font-weight: 600; margin: 0 0 12px; letter-spacing: -0.01em; }
+.service-card h3 { font-family: var(--font-display); font-size: 12px; font-weight: 600; margin: 0 0 12px; letter-spacing: -0.01em; }
 .mono-inline { font-family: var(--font-body); font-style: italic; font-size: 15px; font-weight: 400; color: var(--ink-faint); }
 .service-lede { color: var(--ink-soft); margin: 0 0 20px; max-width: 52ch; }
 .service-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 10px; }
