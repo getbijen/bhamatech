@@ -1,4 +1,4 @@
-# BhamaTech website
+# Kevalabodh website
 
 Static site — no build step required. Three files: `index.html`, `style.css`, `script.js`.
 
