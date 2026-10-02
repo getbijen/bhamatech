@@ -176,7 +176,7 @@ a { color: inherit; text-decoration: none; }
 }
 .hero-h1 .pipe { color: var(--accent); font-weight: 400; margin: 0 2px; }
 .hero-sub {
-  font-size: 17px; color: var(--ink-soft); max-width: 46ch;
+  font-size: 17px; color: var(--ink-soft); 
   margin: 0 0 32px;
 }
 .hero-actions { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 30px; }
@@ -242,14 +242,16 @@ a { color: inherit; text-decoration: none; }
 .section-inner { max-width: var(--container); margin: 0 auto; }
 .section-h2 {
   font-family: var(--font-display); font-weight: 600;
-  font-size: clamp(24px, 3vw, 34px); letter-spacing: -0.01em;
-  line-height: 1.22; max-width: 24ch; margin: 0 0 48px;
+  font-size: clamp(18px, 2.2vw, 26px); letter-spacing: -0.01em;
+  line-height: 1.22; margin: 0 0 48px;
 }
 
 /* ---- services ---- */
 .services-grid {
-  display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px;
-  grid-template-areas: "advisory automation" "leadership leadership";
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px;
+  grid-template-areas: "advisory leadership automation";
+  align-items: stretch;                   /* all cards same height */
+  gap: 1px;
   background: var(--line); border: 1px solid var(--line);
 }
 .service-card { background: var(--surface); padding: 40px 36px; }
