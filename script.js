@@ -48,6 +48,15 @@ navMobile.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
   navToggle.setAttribute('aria-expanded', 'false');
 }));
 
+document.querySelectorAll('.service-item').forEach(item => {
+  item.addEventListener('toggle', () => {
+    if (!item.open) return;
+    document.querySelectorAll('.service-item').forEach(other => {
+      if (other !== item) other.open = false;
+    });
+  });
+});
+
 // contact form -> Web3Forms (static-site friendly, no backend required)
 const form = document.getElementById('contactForm');
 const note = document.getElementById('formNote');

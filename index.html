@@ -3,9 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SI Advisory, Fractional Engineering Leadership, Workflow Automation</title>
-<meta name="description" content="Fraction Delivery leadership, vendor governance, SI vendor evaluation, GenAI Productivity expert, Workflow Automation">
+<title>Kevalabodh.ai | AI Advisory, Engineering Leadership & Automation</title>
+<meta name="description" content="Kevalabodh.ai helps organizations adopt AI, strengthen engineering delivery, and automate workflows.">
 <link rel="icon" type="image/png" href="assets/favicon-mark.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 <script>
   (function(){
@@ -24,11 +27,20 @@
       <span class="nav-mark-glyph" aria-hidden="true">
         <img src="assets/Kevalabodh-logo-mark.png" alt="" />
       </span>
-      <span class="nav-mark-text">Kevalabodh<b>Tech</b></span>
+      <span class="nav-mark-text">Kevalabodh<span>.ai</span></span>
     </a>
     <nav class="nav-links" aria-label="Primary">
-      <a href="#services">Services</a>
+      <details class="nav-dropdown">
+        <summary>Offerings</summary>
+        <div class="nav-dropdown-menu">
+          <a href="#offering-advisory">Super Intelligence Advisory</a>
+          <a href="#offering-leadership">Fractional Engineering Leadership</a>
+          <a href="#offering-automation">Workflow Automation</a>
+        </div>
+      </details>
       <a href="#industries">Industries</a>
+      <a href="#case-studies">Case studies</a>
+      <a href="#careers">Careers</a>
       <a href="#about">About</a>
       <button class="theme-toggle" id="themeToggle" aria-label="Switch to dark theme" aria-pressed="false">
         <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="4.2"/><path d="M12 3v2.2M12 18.8V21M4.9 4.9l1.5 1.5M17.6 17.6l1.5 1.5M3 12h2.2M18.8 12H21M4.9 19.1l1.5-1.5M17.6 6.4l1.5-1.5" stroke-linecap="round"/></svg>
@@ -41,8 +53,17 @@
     </button>
   </div>
   <nav class="nav-mobile" id="navMobile" aria-label="Mobile">
-    <a href="#services">Services</a>
+    <details class="nav-dropdown nav-dropdown-mobile">
+      <summary>Offerings</summary>
+      <div class="nav-dropdown-menu">
+        <a href="#offering-advisory">Super Intelligence Advisory</a>
+        <a href="#offering-leadership">Fractional Engineering Leadership</a>
+        <a href="#offering-automation">Workflow Automation</a>
+      </div>
+    </details>
     <a href="#industries">Industries</a>
+    <a href="#case-studies">Case studies</a>
+    <a href="#careers">Careers</a>
     <a href="#about">About</a>
     <a href="#contact">Book a call</a>
     <button class="theme-toggle theme-toggle-mobile" id="themeToggleMobile" aria-label="Switch to dark theme" aria-pressed="false">
@@ -59,27 +80,26 @@
   <section class="hero">
     <div class="hero-inner">
       <div class="hero-copy">
-        <p class="eyebrow">Our Offerings</p>
-        <h1 class="hero-h1">Super Intelligence Advisory <span class="pipe">|</span> Fractional Engineering Leadership <span class="pipe">|</span> Workflow Automation</h1>
-        <p class="hero-sub">Super Intelligence Adoption, SI vendor evaluation, vendor governance, SI Productivity expert, Fraction Delivery leadership,  Workflow Automation</p>
+        <p class="eyebrow">Kevalabodh.ai</p>
+        <h1 class="hero-h1">Make AI work harder for your business.</h1>
+        <p class="hero-sub">Practical AI advisory, experienced engineering leadership, and workflow automation to turn business priorities into measurable progress.</p>
         <div class="hero-actions">
           <a class="btn btn-primary" href="https://calendly.com/sharma-bijender/30min" target="_blank" rel="noopener">Book a 30-min call</a>
-          <a class="btn btn-ghost" href="#services">See what we do <span aria-hidden="true">↓</span></a>
-        </div>
         </div>
       </div>
-    <div class="hero-rule"></div>
+    </div>
   </section>
 
   <!-- SERVICES -->
   <section class="section" id="services">
     <div class="section-inner">
       <p class="eyebrow">What we do</p>
-      <h2 class="section-h2">We help organizations achieve business outcomes smarter, faster, and with fewer resources. <div class="services-grid">
+      <h2 class="section-h2">We help organizations achieve business outcomes smarter, faster, and with fewer resources.</h2>
+      <div class="services-list">
 
-        <article class="service-card service-card-advisory">
-          <p class="service-tag">Advisory</p>
-          <h3>Super Intelligence Advisory</h3>
+        <details class="service-item" id="offering-advisory" open>
+          <summary><span class="service-index">01</span><span class="service-title">Super Intelligence Advisory</span><span class="service-tag">Advisory</span></summary>
+          <div class="service-content">
           <p class="service-lede">Helping you navigate through the SI journey with a defined path, solid framework and more control</p>
           <ul class="service-list">
             <li>Selecting the right tools for your environment</li>
@@ -89,26 +109,28 @@
             <li>Defining metrics and measuring adoption/implementation rate</li>
             <li>ROI framework to justify continued investment</li>
           </ul>
-        </article>
+          </div>
+        </details>
 
-        <article class="service-card service-card-wide">
-          <p class="service-tag">Leadership</p>
-          <h3>Fractional Engineering Leadership</h3>
-          <p class="service-lede">Level of engagementand part of ownership drive the fraction.</p>
+        <details class="service-item" id="offering-leadership">
+          <summary><span class="service-index">02</span><span class="service-title">Fractional Engineering Leadership</span><span class="service-tag">Leadership</span></summary>
+          <div class="service-content">
+          <p class="service-lede">Senior delivery ownership shaped around the level of engagement your organization needs.</p>
               <ul class="service-list">
-                <li>Vendor and SuperIntelligence delivery oversight — budget, scope, timeline, quality</li>
-                <li>Escalation management across stakeholders business, vendor teams, tech partner</li>
+                <li>Vendor and AI delivery oversight across budget, scope, timeline, and quality</li>
+                <li>Escalation management across business, vendor, and technology stakeholders</li>
                 <li>Program health monitoring & reporting to leadership and steering committees</li>
                 <li>Delivery governance</li>
                 <li>Risk management</li>
                 <li>Monitoring and tracking key delivery metrics</li>
               </ul>
-          </article>
+          </div>
+        </details>
 
-        <article class="service-card service-card-automation">
-          <p class="service-tag">Automation</p>
-          <h3>Workflow Automation <span class="mono-inline">— n8n</span></h3>
-          <p class="service-lede">Turning repeatable, time-consuming work into automated flows — on your infrastructure or the cloud.</p>
+        <details class="service-item" id="offering-automation">
+          <summary><span class="service-index">03</span><span class="service-title">Workflow Automation <span class="mono-inline">n8n</span></span><span class="service-tag">Automation</span></summary>
+          <div class="service-content">
+          <p class="service-lede">Turning repeatable, time-consuming work into automated flows, on your infrastructure or in the cloud.</p>
           <ul class="service-list">
             <li>Deployment of n8n on-prem or in the cloud</li>
             <li>Workshops to identify repeatable, time-consuming workflows</li>
@@ -117,9 +139,41 @@
             <li>Intelligent Automation with Super Intelligence Node</li>
             <li>Leading workshops to brainstorm and develop value stream map</li>
           </ul>
-        </article>
+          </div>
+        </details>
 
       </div>
+    </div>
+  </section>
+
+  <!-- CASE STUDIES -->
+  <section class="section section-alt" id="case-studies">
+    <div class="section-inner">
+      <p class="eyebrow">Case studies</p>
+      <h2 class="section-h2">Experience built in complex, real-world environments</h2>
+      <div class="case-study-grid">
+        <article class="case-study">
+          <p class="case-study-label">Payments &amp; delivery</p>
+          <h3>Leading enterprise payment delivery</h3>
+          <p>Close to a decade of delivery leadership across the enterprise payments ecosystem, with a focus on governance, quality, and stakeholder alignment.</p>
+        </article>
+        <article class="case-study">
+          <p class="case-study-label">AI adoption</p>
+          <h3>Scaling a GenAI platform</h3>
+          <p>Built and scaled a GenAI platform now serving more than 30 organizations, with ownership across P&amp;L and pre-sales.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CAREERS -->
+  <section class="section careers" id="careers">
+    <div class="section-inner careers-inner">
+      <div>
+        <p class="eyebrow">Careers</p>
+        <h2 class="section-h2">Bring thoughtful technology to meaningful work.</h2>
+      </div>
+      <a class="text-link" href="#contact">Start a conversation <span aria-hidden="true">&rarr;</span></a>
     </div>
   </section>
 
