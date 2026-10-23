@@ -15,17 +15,6 @@ const CALENDLY_URL  = "https://calendly.com/sharma-bijender/30min";
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   const root = document.documentElement;
 
-  /* ---------- logo fallback (if the PNG is missing) ---------- */
-  const brandImg = $("#brandImg");
-  const showFallbackLogo = () => {
-    brandImg.style.display = "none";
-    $(".logo-fallback").style.display = "block";
-  };
-  if (brandImg) {
-    if (brandImg.complete && brandImg.naturalWidth === 0) showFallbackLogo();
-    brandImg.addEventListener("error", showFallbackLogo);
-  }
-
   /* ---------- header: solid after scroll + progress bar + back-to-top ---------- */
   const header = $("#header");
   const progress = $("#progress");
