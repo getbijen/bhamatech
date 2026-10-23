@@ -1,9 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
-  <!-- Kevalabodh mark: three connected nodes, upward triangle.
-       Top node solid = leadership/decision. Two base nodes open = team/systems.
-       Lines = integration & workflow. Reads at favicon size (16-32px). -->
-  <path d="M24 12 L11 33 M24 12 L37 33 M13 34.5 L35 34.5" stroke="#3452FF" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="24" cy="12" r="6" fill="#3452FF"/>
-  <circle cx="11.5" cy="34.5" r="5" fill="#FFFFFF" stroke="#3452FF" stroke-width="3.2"/>
-  <circle cx="36.5" cy="34.5" r="5" fill="#FFFFFF" stroke="#3452FF" stroke-width="3.2"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14b8a6"/>
+      <stop offset="1" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#g)"/>
+  <g fill="none" stroke="#04121a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"><path d="M17 12C12 12 11 15 11 19V25C11 28.5 9.5 30.5 6.5 32C9.5 33.5 11 35.5 11 39V45C11 49 12 52 17 52"/><path d="M47 12C52 12 53 15 53 19V25C53 28.5 54.5 30.5 57.5 32C54.5 33.5 53 35.5 53 39V45C53 49 52 52 47 52"/><path stroke-width="4.8" d="M24 21V43M24 21H33C37.5 21 39 24 39 26.5C39 29.5 37.5 32 33 32H24M33 32C38.5 32 41 34.5 41 37.5C41 41 38.5 43 33 43H24"/></g>
 </svg>
